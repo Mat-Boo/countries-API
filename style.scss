@@ -1,0 +1,83 @@
+$mainFont: 'Nunito Sans', sans-serif;
+
+$DarkModeElements: hsl(209, 23%, 22%);
+$DarkModeBackground: hsl(207, 26%, 17%);
+$LightModeText: hsl(200, 15%, 8%);
+$LightModeInput: hsl(0, 0%, 52%);
+$LightModeBackground: hsl(0, 0%, 98%);
+$DarkModeTextLightModeElements: hsl(0, 0%, 100%);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $mainFont;
+}
+
+header {
+    background: $DarkModeElements;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.themeMode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeIcon {
+    margin-right: 5px;
+}
+
+.themeModeTitle {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+main {
+    background: $DarkModeBackground;
+    padding: 50px;
+}
+
+.headerMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchInput {
+    position: relative;
+    background: $DarkModeElements;
+    border: none;
+    color: white;
+    padding: 15px 15px 15px 50px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.bi-search {
+    position: absolute;
+    color: white;
+    padding: 15px;
+}
+
+#continent {
+    background: $DarkModeElements;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+  background: #2b3945;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 50px 20px 50px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.themeMode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.themeIcon {
+  margin-right: 5px;
+}
+
+.themeModeTitle {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+main {
+  background: #202c37;
+  padding: 50px;
+}
+
+.headerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#searchInput {
+  position: relative;
+  background: #2b3945;
+  border: none;
+  color: white;
+  padding: 15px 15px 15px 50px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.bi-search {
+  position: absolute;
+  color: white;
+  padding: 15px;
+}
+
+#continent {
+  background: #2b3945;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
